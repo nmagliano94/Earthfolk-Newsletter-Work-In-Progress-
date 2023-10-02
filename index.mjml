@@ -1,0 +1,281 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+
+    <mj-attributes>
+      <mj-all font-family="Helvetica" padding="0" />
+      <mj-class name="body-bg" background-color="#FCF5EB" />
+      <mj-class name="header-info" align="center" font-size="12px" font-weight="600" text-transform="uppercase" line-height="22px" padding-top="15px" padding-bottom="15px" />
+      <mj-class name="header-text" font-family="cursive" font-style="italic" color="#000000" font-size="13px" line-height="26px" />
+      <mj-class name="red-header-text" font-size="14px" text-transform="uppercase" color="#E53317" font-weight="600" padding-top="12px" padding-bottom="12px" align="center" />
+      <mj-class name="divider" border-width="1px" padding-left="50px" padding-right="50px" />
+      <mj-class name="body-text" align="center" font-size="14px" line-height="20px" font-weight="300" padding-left="40px" padding-right="40px" />
+      <mj-class name="red-btn" background-color="#E53317" color="#FFFFFF" border-radius="100px" width="150px" height="40px" align="center" font-size="14px" font-weight="300" text-transform="uppercase" inner-padding="10px" href="https//www.earthfolk.com" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .red-body-text {
+        color: #E53317;
+        font-style: italic;
+        text-decoration: none;
+      }
+    </mj-style>
+    <mj-style>
+      .link-text {
+        color: #E53317;
+        text-decoration: none;
+      }
+
+      .red-body-text,
+      .link-text:hover {
+        color: #E53317;
+        text-decoration: underline;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F2F2F2">
+    <!-- Start of Logo Section-->
+    <mj-section mj-class="body-bg">
+      <mj-column>
+        <mj-image src="images/logo.jpeg" alt="earthfolk logo" width="300px" />
+      </mj-column>
+    </mj-section>
+    <!-- End of Logo Section -->
+
+    <!-- Start of Header -->
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-right="5px" padding-left="5px">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="header-info">
+            Thursday
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="header-info">
+            31 August
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text mj-class="header-info">
+            letter no: 0015
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider mj-class="divider" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-top="20px" padding-left="70px" padding-right="70px" padding-bottom="20px">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="header-text">
+            Guiding you through the wilderness of consumerism, so you can navigate the treacherous aisles
+            of temptation and emerge with products that won't leave you feeling like you've tangoed
+            with mother nature herself.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End of Header-->
+
+    <!-- Start of Tube Station Section -->
+    <mj-section>
+      <mj-column>
+        <mj-divider mj-class="divider" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-column>
+        <mj-text mj-class="red-header-text">
+          good news
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-divider mj-class="divider" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="35px">
+      <mj-column>
+        <mj-image src="images/tubestation.png" alt="tube station" width="500px" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center" font-size="20px" font-weight="300" padding-bottom="35px">
+            Transforming waste into tube station tiles...
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="body-text">
+            As part of his final-year work at Central Saint Martins, titled 'From the Underground',
+            designer Jeffery Miller <span class="red-body-text">created tiles for the Long Underground using the transport system's own waste.</span>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-column>
+        <mj-image src="images/miller.png" alt="Jeffrey Miller" width="250px" padding-left="55px" />
+      </mj-column>
+      <mj-column>
+        <mj-image src="images/waste.png" alt="Jeffrey Miller" width="250px" height="260px" padding-right="45px" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="body-text">
+            Millers tiles are made using London clay and iron oxide-rich dust, <span class="red-body-text">both waste materials produced
+              from the construction and the operation of the tube.</span> Miller hopes to work with Transport for London to
+            implement his tiles in the London Underground one day, so Londoners, keep an eye out!
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="60px">
+      <mj-column>
+        <mj-button mj-class="red-btn">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- End of Tube Station Section -->
+
+
+    <!-- Start Of Follow Section-->
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="red-header-text">
+            Folks To Follow
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-column>
+        <mj-image src="images/wake.png" alt="" width="400px" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column padding-top="30px">
+          <mj-text mj-class="body-text">
+            Follow <span class="red-body-text">
+              <a href="https://www.instagram.com" class="link-text">@ohwake</a>
+            </span>for essential climate coverage that spotlights stories from a youth perspective.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="55px">
+      <mj-column>
+        <mj-button mj-class="red-btn">
+          Learn More
+        </mj-button>
+      </mj-column>
+    </mj-section>
+<!-- End Of Follow Section -->
+
+<!-- Start Of Tropicfeel Section -->
+ <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="red-header-text">
+            Brands Pushing Boundaries
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+<mj-section mj-class="body-bg">
+    <mj-column padding-top="20px">
+        <mj-image src="images/tropicfeel.png" alt="a woman walking" width="530px" />
+    </mj-column>
+</mj-section>
+<mj-section mj-class="body-bg" padding-top="35px">
+    <mj-group>
+        <mj-column padding-bottom="20px">
+            <mj-text align="center" font-size="20px" font-weight="300" padding-bottom="35px">
+                An eco-friendly adventure company...
+            </mj-text>
+            <mj-text mj-class="body-text">
+                Barcelona-based brand Tropicfeel creates high-performance gear that's made to tackle any
+                weather and terrain.
+            </mj-text>
+        </mj-column>
+    </mj-group>
+</mj-section>
+
+<mj-section mj-class="body-bg" padding-bottom="25px">
+    <mj-column>
+        <mj-image src="images/tropicfeel2.png" alt="tropicfeel products in nature" width="530px" align="center" />
+        <mj-text align="center" color="#828647" font-size="20px" font-family="cursive" font-style="italic" line-height="26px" padding-left="60px" padding-right="60px" padding-top="25px" padding-bottom="30px">
+            Inspiring conscious travel and positive change through responsible products and a collective voice
+        </mj-text>
+        <mj-text mj-class="body-text">
+            <span class="red-body-text">Sustainability</span>underscores the Tropicfeel philosophy and is<span class="red-body-text">embedded into every stage of designer
+            and production:</span> only eco-friendly recycled and organic materials are used and the strictest of human labor
+            and animal welfare policies are in place.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column>
+        <mj-image src="" alt="" />
+    </mj-column>
+</mj-section>
+
+<!-- End Of Tropicfeel Section -->
+  </mj-body>
+</mjml>
