@@ -9,17 +9,19 @@
       <mj-class name="header-text" font-family="cursive" font-style="italic" color="#000000" font-size="13px" line-height="26px" />
       <mj-class name="red-header-text" font-size="14px" text-transform="uppercase" color="#E53317" font-weight="600" padding-top="12px" padding-bottom="12px" align="center" />
       <mj-class name="divider" border-width="1px" padding-left="50px" padding-right="50px" />
-      <mj-class name="body-text" align="center" font-size="14px" line-height="20px" font-weight="300" padding-left="40px" padding-right="40px" />
-      <mj-class name="red-btn" background-color="#E53317" color="#FFFFFF" border-radius="100px" width="150px" height="40px" align="center" font-size="14px" font-weight="300" text-transform="uppercase" inner-padding="10px" href="https//www.earthfolk.com" />
+      <mj-class name="body-text" align="center" font-size="13px" line-height="20px" font-weight="300" padding-left="40px" padding-right="40px" />
+      <mj-class name="red-btn" background-color="#E53317" color="#FFFFFF" border-radius="100px" width="150px" height="40px" align="center" font-size="14px" font-weight="300" text-transform="uppercase" padding-bottom="30px" inner-padding="10px" href="https//www.earthfolk.com" />
     </mj-attributes>
 
     <mj-style inline="inline">
       .red-body-text {
         color: #E53317;
+        font-size: 13px;
         font-style: italic;
         text-decoration: none;
       }
     </mj-style>
+
     <mj-style>
       .link-text {
         color: #E53317;
@@ -33,11 +35,12 @@
       }
     </mj-style>
   </mj-head>
+
   <mj-body background-color="#F2F2F2">
     <!-- Start of Logo Section-->
     <mj-section mj-class="body-bg">
       <mj-column>
-        <mj-image src="images/logo.jpeg" alt="earthfolk logo" width="300px" />
+        <mj-image src="https://i.postimg.cc/vHknsmLq/logo.jpg" alt="earthfolk logo" width="300px" />
       </mj-column>
     </mj-section>
     <!-- End of Logo Section -->
@@ -58,12 +61,12 @@
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text mj-class="header-info">
+          <mj-text mj-class="header-info" padding-right="15px">
             31 August
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text mj-class="header-info">
+          <mj-text mj-class="header-info" padding-right="15px">
             letter no: 0015
           </mj-text>
         </mj-column>
@@ -108,13 +111,13 @@
 
     <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="35px">
       <mj-column>
-        <mj-image src="images/tubestation.png" alt="tube station" width="500px" />
+        <mj-image src="https://i.postimg.cc/gJzXDLmJ/tubestation.png" alt="tube station" width="515px" />
       </mj-column>
     </mj-section>
     <mj-section mj-class="body-bg">
       <mj-group>
         <mj-column>
-          <mj-text align="center" font-size="20px" font-weight="300" padding-bottom="35px">
+          <mj-text align="center" color="#000000" font-size="20px" font-weight="300" padding-bottom="35px">
             Transforming waste into tube station tiles...
           </mj-text>
         </mj-column>
@@ -132,13 +135,15 @@
       </mj-group>
     </mj-section>
 
-    <mj-section mj-class="body-bg" padding-top="35px">
-      <mj-column>
-        <mj-image src="images/miller.png" alt="Jeffrey Miller" width="250px" padding-left="55px" />
-      </mj-column>
-      <mj-column>
-        <mj-image src="images/waste.png" alt="Jeffrey Miller" width="250px" height="260px" padding-right="45px" />
-      </mj-column>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column padding-top="35px" padding-left="35px">
+          <mj-image src="https://i.postimg.cc/T1HDh28P/miller.png" alt="Jeffrey Miller" width="250px" />
+        </mj-column>
+        <mj-column padding-top="36px" padding-right="35px">
+          <mj-image src="https://i.postimg.cc/xTJkt2DK/waste.png" alt="Jeffrey Miller" width="250px" height="264px"/>
+        </mj-column>
+      </mj-group>
     </mj-section>
     <mj-section mj-class="body-bg" padding-top="35px">
       <mj-group>
@@ -152,7 +157,7 @@
       </mj-group>
     </mj-section>
 
-    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="60px">
+    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="35px">
       <mj-column>
         <mj-button mj-class="red-btn">
           Learn More
@@ -189,7 +194,7 @@
 
     <mj-section mj-class="body-bg" padding-top="35px">
       <mj-column>
-        <mj-image src="images/wake.png" alt="" width="400px" align="center" />
+        <mj-image src="https://i.postimg.cc/J0tywwyC/wake.png" alt="" width="300px" align="center" />
       </mj-column>
     </mj-section>
     <mj-section mj-class="body-bg">
@@ -204,17 +209,17 @@
       </mj-group>
     </mj-section>
 
-    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="55px">
+    <mj-section mj-class="body-bg" padding-top="35px" padding-bottom="35px">
       <mj-column>
         <mj-button mj-class="red-btn">
           Learn More
         </mj-button>
       </mj-column>
     </mj-section>
-<!-- End Of Follow Section -->
+    <!-- End Of Follow Section -->
 
-<!-- Start Of Tropicfeel Section -->
- <mj-section mj-class="body-bg">
+    <!-- Start Of Tropicfeel Section -->
+    <mj-section mj-class="body-bg">
       <mj-group>
         <mj-column>
           <mj-divider mj-class="divider" />
@@ -238,44 +243,311 @@
       </mj-group>
     </mj-section>
 
-<mj-section mj-class="body-bg">
-    <mj-column padding-top="20px">
-        <mj-image src="images/tropicfeel.png" alt="a woman walking" width="530px" />
-    </mj-column>
-</mj-section>
-<mj-section mj-class="body-bg" padding-top="35px">
-    <mj-group>
+    <mj-section mj-class="body-bg">
+      <mj-column padding-top="20px">
+        <mj-image src="https://i.postimg.cc/g0P6xB73/tropicfeel.png" alt="a woman walking" width="530px" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-group>
         <mj-column padding-bottom="20px">
-            <mj-text align="center" font-size="20px" font-weight="300" padding-bottom="35px">
-                An eco-friendly adventure company...
-            </mj-text>
-            <mj-text mj-class="body-text">
-                Barcelona-based brand Tropicfeel creates high-performance gear that's made to tackle any
-                weather and terrain.
-            </mj-text>
+          <mj-text align="center" font-size="20px" font-weight="300" padding-bottom="35px">
+            An eco-friendly adventure company...
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Barcelona-based brand Tropicfeel creates high-performance gear that's made to tackle any
+            weather and terrain.
+          </mj-text>
         </mj-column>
-    </mj-group>
-</mj-section>
+      </mj-group>
+    </mj-section>
 
-<mj-section mj-class="body-bg" padding-bottom="25px">
-    <mj-column>
-        <mj-image src="images/tropicfeel2.png" alt="tropicfeel products in nature" width="530px" align="center" />
-        <mj-text align="center" color="#828647" font-size="20px" font-family="cursive" font-style="italic" line-height="26px" padding-left="60px" padding-right="60px" padding-top="25px" padding-bottom="30px">
-            Inspiring conscious travel and positive change through responsible products and a collective voice
+    <mj-section mj-class="body-bg" padding-bottom="20px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/MGbfVmkN/tropicfeel2.png" alt="tropicfeel products in nature" width="530px" align="center" />
+        <mj-text align="center" color="#828647" font-size="20px" font-family="cursive" font-style="italic" line-height="26px" padding-left="60px" padding-right="60px" padding-top="25px" padding-bottom="40px">
+          Inspiring conscious travel and positive change through responsible products and a collective voice
         </mj-text>
         <mj-text mj-class="body-text">
-            <span class="red-body-text">Sustainability</span>underscores the Tropicfeel philosophy and is<span class="red-body-text">embedded into every stage of designer
+          <span class="red-body-text">Sustainability</span> underscores the Tropicfeel philosophy and is <span class="red-body-text">embedded into every stage of designer
             and production:</span> only eco-friendly recycled and organic materials are used and the strictest of human labor
-            and animal welfare policies are in place.
+          and animal welfare policies are in place.
         </mj-text>
-    </mj-column>
-</mj-section>
-<mj-section>
-    <mj-column>
-        <mj-image src="" alt="" />
-    </mj-column>
-</mj-section>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-column padding-bottom="30px">
+        <mj-image src="https://i.postimg.cc/JhwjbhsD/backpack.png" alt="backpack filled with clothes" width="520px" padding-bottom="22px" />
+        <mj-text mj-class="body-text">
+          Whether you're <span class="red-body-text">cycling through the city to work or climbing a craggy mountain,</span> <br>Tropicfeel has you sorted with
+          garments that look good, and do good.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-bottom="25px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/XJLFScQd/info.png" alt="" width="400px" align="center" />
+        <mj-button mj-class="red-btn" padding-top="20px" padding-bottom="40px">
+          Discover
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- End Of Tropicfeel Section -->
 
-<!-- End Of Tropicfeel Section -->
+    <!-- Start Of Good Trips Section -->
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="red-header-text">
+            Good Trips
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/BZhDmp8G/norway1.png" alt="window of air bnb" width="510px" />
+        <mj-text align="center" color="#000000" font-size="20px" font-weight="300" padding-top="30px">
+          Countryside calm in Norway...
+        </mj-text>
+        <mj-text mj-class="body-text" padding-top="35px">
+          Escape the everyday with this <span class="red-body-text">ultra-unique</span> Airbnb in the Norwegian countryside, complete with
+          unforgettable views of the <span class="red-body-text">surrounding fjords and mountains.</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/bNsnWnbS/norway2.png" alt="view of the mounatins" width="512px" />
+        <mj-text mj-class="body-text" padding-top="35px">
+          Swim, hike, or simple relax with a good book. <span class="red-body-text">It's the ultimate immersion in nature.</span>
+        </mj-text>
+        <mj-button mj-class="red-btn" padding-top="35px">
+          book now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- End Of Good Trips Section -->
+
+    <!-- Start Of Good Stuff Section -->
+
+    <mj-section mj-class="body-bg" padding-top="30px">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="red-header-text">
+            Good Stuff
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/dtx2V6v9/candle1.png" alt="a candle with homework written on the front" width="300px" align="center" padding-left="40px" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/sX4PfRDB/candle2.png" alt="a candle with homework written on the front" width="230px" align="center" padding-right="45px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-bottom="35px">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center" color="#E53317" font-size="20px" font-weight="300" padding-top="25px">
+            A candle that celebrates the elements..
+          </mj-text>
+          <mj-text mj-class="body-text" padding-top="35px">
+            Homework's sustainably made Fire Candle will bring light, warmth, and a gorgeous scent to every
+            room. Reuse the glass jar for pens or makeup brushes.
+          </mj-text>
+          <mj-button mj-class="red-btn" padding-top="30px">
+            discover
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider border-width="1px" padding-left="80px" padding-right="80px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+
+    <mj-section mj-class="body-bg" padding-top="55px">
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/SxYW29xb/bread1.png" alt="a candle with homework written on the front" width="250px" align="center" padding-left="45px" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/VL69wpy6/bread2.png" alt="a candle with homework written on the front" width="249px" align="center" padding-right="45px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-bottom="35px">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center" color="#E53317" font-size="20px" font-weight="300" padding-top="30px">
+            Keep bread fresher for longer...
+          </mj-text>
+          <mj-text mj-class="body-text" padding-top="35px">
+            Make your weekly bread shop that much more sustainable with a reusable bread bag from Peckham Cloth.
+            Handmade from organic cotton, the bags are treated with beeswax, organic jojoba oil, and pine resin.
+          </mj-text>
+          <mj-button mj-class="red-btn" padding-top="30px">
+            discover
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider border-width="1px" padding-left="80px" padding-right="80px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="55px">
+      <mj-group>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/J7K39m2v/coat1.png" alt="a candle with homework written on the front" width="260px" align="center" padding-left="48px" />
+        </mj-column>
+        <mj-column>
+          <mj-image src="https://i.postimg.cc/hjBbqGgW/coat2.png" alt="a candle with homework written on the front" width="220px" align="center" padding-right="45px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-bottom="0px">
+      <mj-group>
+        <mj-column>
+          <mj-text align="center" color="#E53317" font-size="20px" font-weight="300" padding-top="30px">
+            A trend-transcending coat...
+          </mj-text>
+          <mj-text mj-class="body-text" padding-top="35px">
+            ASKET's take on the mac coat is as classic as they come. Crafted from water-repellent organic cotton,
+            it's made to stand the test of time.
+          </mj-text>
+          <mj-button mj-class="red-btn" padding-top="30px">
+            discover
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Of Good Stuff Section -->
+
+    <!-- Start Of Watching Section -->
+    <mj-section mj-class="body-bg" padding-top="30px">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-text mj-class="red-header-text">
+            What Folks Are Watching
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider mj-class="divider" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/d157SQV9/video.png" alt="Moss Of Many Layers YouTube video" width="500px" href="https://www.youtube.com/watch?v=sOcpgu2E-iY" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-top="35px">
+      <mj-group>
+        <mj-column padding-bottom="20px">
+          <mj-text align="center" font-size="20px" font-weight="300" padding-bottom="35px">
+            An insight into the political urgency of moss...
+          </mj-text>
+          <mj-text mj-class="body-text">
+            Photographer and filmmaker Juliet Klottrup presents a short film exploring her project 'Moss Of Many Layers'.
+            Discover the <span class="red-body-text">rich resources, preservation efforts, and myriad people involved</span> in the healing of Bolton
+            Fell Moss in Cumbria.
+          </mj-text>
+          <mj-button mj-class="red-btn" padding-top="35px" padding-bottom="40px" href="https://www.youtube.com/watch?v=sOcpgu2E-iY">
+            watch now
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg">
+      <mj-group>
+        <mj-column>
+          <mj-divider border-width="1px" padding-left="80px" padding-right="80px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Of Watching Section -->
+
+    <!-- Start Of Footer Section -->
+    <mj-section mj-class="body-bg">
+      <mj-column padding-top="40px" padding-bottom="80px">
+        <mj-image src="https://i.postimg.cc/1XRGfYfv/footer-image.png" width="480px" alt="" align="center" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-bottom="50px">
+      <mj-group>
+        <mj-column padding-left="55px">
+          <mj-image src="https://i.postimg.cc/nLvBTtmd/footer-logo.png" width="85px" alt="" align="left" />
+        </mj-column>
+        <mj-column padding-right="55px" padding-top="15px">
+          <mj-image src="https://i.postimg.cc/Ssk8vt7m/instagram.png" width="50px" alt="" align="right" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section mj-class="body-bg" padding-bottom="60px">
+      <mj-column>
+        <mj-text font-size="10px" font-weight="400" color="#E53317" align="center">
+          Earthfolk, 66 High Street, Chipping Norton, OX7 6LC, United Kingdom
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End Of Footer Section-->
   </mj-body>
 </mjml>
